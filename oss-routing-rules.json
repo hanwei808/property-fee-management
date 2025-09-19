@@ -1,0 +1,6 @@
+[
+  {
+    "ReplaceKeyWith": "index.html",
+    "HttpErrorCodeReturnedEquals": "404"
+  }
+]

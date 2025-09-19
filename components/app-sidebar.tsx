@@ -80,7 +80,7 @@ export function AppSidebar() {
   return (
     <Sidebar className="border-r border-sidebar-border [&_.scrollbar-hide]:scrollbar-hide [&_*]:scrollbar-hide">
       <SidebarHeader className="border-b border-sidebar-border p-4">
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2 hover:bg-sidebar-accent/50 rounded-lg p-2 -m-2 transition-colors">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-accent">
             <Building2 className="h-4 w-4 text-sidebar-accent-foreground" />
           </div>
@@ -88,7 +88,7 @@ export function AppSidebar() {
             <span className="text-sm font-semibold text-sidebar-foreground">物业智能催收系统</span>
             <span className="text-xs text-sidebar-foreground/60">v3.0</span>
           </div>
-        </div>
+        </Link>
       </SidebarHeader>
       <SidebarContent className="overflow-y-auto p-2 scrollbar-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         <SidebarMenu>

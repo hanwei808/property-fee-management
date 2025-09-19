@@ -90,7 +90,7 @@ export function AppSidebar() {
           </div>
         </div>
       </SidebarHeader>
-      <SidebarContent className="overflow-y-auto px-2 scrollbar-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+      <SidebarContent className="overflow-y-auto p-2 scrollbar-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         <SidebarMenu>
           {menuItems.map((item) => (
             <Collapsible key={item.title} defaultOpen className="group/collapsible">
